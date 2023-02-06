@@ -1,0 +1,100 @@
+header{
+    background-color: rgb(62, 68, 68);
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 1080px;
+    margin: 0 auto; 
+}
+
+#logo{
+    width:20%;
+}
+
+#titulo-logo{
+    font-size: larger;
+    text-transform: uppercase;
+    color: azure;
+
+}
+
+nav{
+    position: absolute;
+    top: 55px;
+    right: 0;
+    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgba(101, 128, 119, 0.815);
+    text-decoration: underline;
+
+}
+
+.banner{
+    text-align: center;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titulo-central{
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 1em;
+    clear: left;
+}
+
+.principal{
+    text-align: center;
+}
+
+.img-texto-principal{
+    float: left;
+    width: 120px;
+
+}
+
+
+
+.imagem-tabaco{
+    width: 30%;
+}
+
+.rodape-img{
+    width: 100px;
+}
+
+footer{
+    
+    text-align: center;
+    background: url("rodape.jpg");
+    margin-top: 400px;
+    padding: 40px 0;
+    
+}
+
+.copy{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 20px;
+}

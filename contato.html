@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tabacaria do Xaréu - Endereço e contato</title>
+        
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand&family=Unbounded:wght@300&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+            <div class="caixa">    
+                    <h1><img id="logo" src="xareu.png" alt="Logo da Tabacaria do Xaréu" </h1>
+                    <h1 id="titulo-logo">Tabacaria do Xaréu</h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index2.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Endereço e Contato</a></li>
+                    </ul>
+                </nav>    
+            </div>
+        </header>
+        
+        <main>
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" class="input-padrao" required placeholder="Seu Nome">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="email@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Deixe sua mensagem !</label>
+                <textarea cols="40" rows="10" id="mensagem" class="input-padrao" required placeholder="Escreva seu recado."></textarea>
+
+                    <fieldset>
+                        <legend>Como prefere o nosso contato ?</legend>
+
+                        <label for="radio-email"><input type="radio" name=contato value="email" id="radio-email">Email</label>
+
+                        <label for="radio-telefone"><input type="radio" name=contato value="telefone" id="radio-telefone">Telefone</label>
+                        
+
+                        <label for="radio-whatsapp"><input type="radio" name=contato value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                        
+                    </fieldset>
+                    
+                    <fieldset class="contato-2">
+                        <legend>Qual horário prefere ser atendidx ?</legend>
+                        <select id="select-box">
+                            <option>
+                                manhã
+                            </option>
+                            <option>
+                                tarde
+                            </option>
+                            <option>
+                                noite
+                            </option>
+                        </select>    
+                    </fieldset>
+                <label class="input-checkbox"><input type="checkbox" checked>Gostaria de receber nosso Newsletter por Email?</label>
+
+                <input type="submit" value="Enviar Formulário" class="enviar"> 
+                  
+                  
+            </form>
+
+            <table class="tabela">
+                
+                <thead class="cabeçalho">
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr> 
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Seg. à Sex.</td>
+                        <td>8:00 às 18:00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sáb.</td>
+                        <td>8:00 às 12:00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Dom.</td>
+                        <td>Fechado</td>
+                    </tr>
+                    
+                </tbody>
+
+            </table>
+        </main>
+
+        <footer class="fim">
+            <img class="rodape-img" src="xareu.png" alt="Logo da Tabacaria do Xaréu">
+            <p class="copy">&copy; Copyright Tabacaria do Xaréu - 2023</p>
+            
+        </footer>
+    </body>
+</html>
