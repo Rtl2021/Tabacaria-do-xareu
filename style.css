@@ -42,7 +42,7 @@ nav a{
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: large;
+    font-size: 100%;
     text-decoration: none;
 }
 
@@ -313,4 +313,71 @@ footer.fim{
     margin: 40px auto ;
 }
 
+@media screen and (max-width: 480px) {
+   .caixa, .principal, .conteudo-beneficios, .mapa, .video, .maps,.footer, .produtos, .formulario, .tabela{
+    width: auto;
+   }
 
+   .formulario, .tabela{
+    position: static;
+    margin-left: 20px;
+    padding: 15px;
+    
+   }
+   .tabel{
+    text-align: center;
+    position: static;
+ 
+   }
+
+   legend, .input-checkbox, .enviar{
+    font-size: 1em;
+   }
+    
+   label, th, td{
+    font-size: 0.8em;
+   }
+
+   h1{
+    text-align: center;
+   }
+
+   nav{
+    position: static;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 1em;
+   }
+    
+
+   .titulo-central{
+    font-size: 1.5em;
+   }
+
+   .principal p{
+    font-size: 0.8em;
+    margin-bottom: 1.0em;
+    text-justify: distribute;
+
+   }
+
+   .lista-beneficios{
+    font-size: 0.8em;
+   }
+
+   .produtos li{
+    width: 60%;
+    position: relative;
+    left: 57px;
+    text-align: center;
+   }
+
+   #piteira{
+    margin-left: -5px;
+   }
+
+   #piteira, #tabaco, #seda{
+    margin: 10px auto;
+   }
+   
+}
